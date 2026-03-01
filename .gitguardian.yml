@@ -1,0 +1,5 @@
+version: 2
+
+secret:
+  ignored-paths:
+    - "settings/Devnet.toml"  # Clarinet default devnet keys — not real secrets
