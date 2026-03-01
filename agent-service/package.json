@@ -1,0 +1,16 @@
+{
+  "name": "agent-service",
+  "version": "1.0.0",
+  "description": "x402 paid job discovery API for Agent Market",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "demo": "node agent-demo.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "@stacks/transactions": "^7.3.1",
+    "@stacks/network": "^7.3.1"
+  }
+}
