@@ -8,6 +8,9 @@ cache_dir = "./.cache"
 [[project.requirements]]
 contract_id = "SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-deposit"
 
+[[project.requirements]]
+contract_id = "SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard"
+
 # [contracts.counter]
 # path = "contracts/counter.clar"
 # epoch = "latest"
@@ -28,10 +31,10 @@ check_checker = { trusted_sender = false, trusted_caller = false, callee_filter 
 
 [contracts.agent-registry]
 path = "contracts/agent-registry.clar"
-clarity_version = 4
-epoch = "latest"
+clarity_version = 3
+epoch = "3.1"
 
 [contracts.agent-marketplace]
 path = "contracts/agent-marketplace.clar"
-clarity_version = 4
-epoch = "latest"
+clarity_version = 3
+epoch = "3.1"
